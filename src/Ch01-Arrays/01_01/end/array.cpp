@@ -21,6 +21,7 @@ int main()
     // Modifies the third element
     numbers[2] = 42;
 
+    int f = 0.69
     // Iterates over the numbers array using a for loop
     for (int i = 0; i < 5; ++i)
     {
