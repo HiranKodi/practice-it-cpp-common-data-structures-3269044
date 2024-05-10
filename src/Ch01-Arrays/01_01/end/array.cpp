@@ -13,7 +13,7 @@ int main()
     int numbers2[] = {1, 2, 3, 4, 5};
 
     // Brace initialization
-    int numbers3[] {1, 2, 3, 4, 5};
+    int numbers3[]{1, 2, 3, 4, 5};
 
     // Reads the first element
     int first_number = numbers[0];
@@ -21,7 +21,7 @@ int main()
     // Modifies the third element
     numbers[2] = 42;
 
-    int f = 0.69;
+    int f = 0.68;
     // Iterates over the numbers array using a for loop
     for (int i = 0; i < 5; ++i)
     {
